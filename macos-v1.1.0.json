@@ -1,0 +1,51 @@
+{
+  "version": "1.1.0",
+  "author": "linfeng365",
+  "default": {
+    "direction": "ccw",
+    "angle_degrees": 1
+  },
+  "angle_range_degrees": [
+    0.001,
+    180
+  ],
+  "decimal_angles": true,
+  "directions": [
+    "ccw",
+    "cw"
+  ],
+  "backend_sha256": "b78e1a198a1eb4a5b0153f0f1341e08d533838056bf9e95f1bfac2b3d24828f6",
+  "previous_release": {
+    "version": "1.0.0",
+    "macOS": "user_reported_pass",
+    "Windows": "user_reported_pass"
+  },
+  "target": "macOS Apple Silicon",
+  "validation": {
+    "native_app_parameter_cases": [
+      {
+        "case": "default",
+        "slope": -0.017533522009188476,
+        "pages": 2,
+        "image_bytes_preserved": true,
+        "OCR_preserved": true
+      },
+      {
+        "case": "ccw05",
+        "slope": -0.008735055484486687,
+        "pages": 2,
+        "image_bytes_preserved": true,
+        "OCR_preserved": true
+      },
+      {
+        "case": "cw125",
+        "slope": 0.021820470734549798,
+        "pages": 2,
+        "image_bytes_preserved": true,
+        "OCR_preserved": true
+      }
+    ],
+    "ui_preview": "inspected",
+    "new_version_mac_run": "passed"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": "1.1.0",
+  "author": "linfeng365",
+  "default": {
+    "direction": "ccw",
+    "angle_degrees": 1
+  },
+  "angle_range_degrees": [
+    0.001,
+    180
+  ],
+  "decimal_angles": true,
+  "directions": [
+    "ccw",
+    "cw"
+  ],
+  "backend_sha256": "b78e1a198a1eb4a5b0153f0f1341e08d533838056bf9e95f1bfac2b3d24828f6",
+  "previous_release": {
+    "version": "1.0.0",
+    "macOS": "user_reported_pass",
+    "Windows": "user_reported_pass"
+  },
+  "target": "Windows 10/11 x64",
+  "compiler": "Zig 0.15.2",
+  "python": "3.13.17 embeddable amd64",
+  "pypdf": "6.10.0",
+  "validation": {
+    "cross_compilation": "passed",
+    "PE_x64_GUI": "passed",
+    "version_and_author_resources": "passed",
+    "shared_backend_on_macOS": "passed",
+    "new_version_windows_run": "not_run",
+    "new_windows_controls": "not_run"
+  }
+}
